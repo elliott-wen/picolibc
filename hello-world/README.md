@@ -30,7 +30,7 @@ processor with the 'imac' options (integer, multiply, atomics,
 compressed) and uses the 'ilp32' ABI (32-bit integer, long and
 pointer):
 
-	riscv64-unknown-elf-gcc --specs=picolibc.specs --oslib-semihost -march=rv32imac -mabi=ilp32
+	riscv64-unknown-elf-gcc --specs=picolibc.specs --oslib=semihost -march=rv32imac -mabi=ilp32
 
 For ARM, QEMU emulates a "mps2-an385" board which has a Cortex-M3
 processor:
